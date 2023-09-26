@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+}
+
+:root {
+    --text-color: black;
+    font-size: 20px
+}
+
+h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightgrey;
+    position: fixed;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+}
+
+header a {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+#title {
+    display: flex;
+    align-items: center;
+}
+
+#navbar {
+    display: flex;
+    flex-direction: row;
+    margin: auto 20px;
+}
+
+#navlist {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#navlist li {
+    list-style: none;
+    margin: 20px;
+}
+
+#navlist li a:hover {
+    color: white;
+}
+
+#about, #paragraph, #newsletter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 80%;
+    height: 100vh;
+}
+
+figure {
+    display:flex;
+    align-items: center;
+    padding: 10px;
+    border: grey solid;
+    box-shadow: 12px 12px 2px 1px grey;
+    margin: 20px 30px;
+}
+
+figure img {
+    height: 200px;
+}
+
+
+form {
+    background-color: lightgrey;
+    box-shadow: 12px 12px 2px 1px grey;
+    padding: 15px;
+    border-radius: 15px;
+    margin: 20px auto;
+}
+
+label{
+    display: inline-block;
+    width: 250px;
+    text-align: left;
+    margin: 5px auto;
+}
+input {
+    display: inline-block;
+}
+
+textarea {
+    margin: 10px auto -10px auto;
+    display: flex;
+    justify-content: center;
+}
+
+input[type='submit']{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+
+footer {
+    background-color: lightgray;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.scrollButton a, address a {
+    text-decoration: none;
+    color: black;
+    font-style: normal;
+}

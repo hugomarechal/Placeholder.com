@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>HTML template</title>
+    </head>
+    <body>
+        <header>
+            <a href="#">
+                <div id="title">
+                    <img alt="lorem ipsum logo" src="https://www.kadencewp.com/wp-content/uploads/2020/10/alogo-2.png" height="80px">
+                    <h1>Placeholder.com</h1>
+                </div>
+            </a>
+            <nav id="navbar">
+                <ul id="navlist">
+                    <li><a href="#about">About this page</a></li>
+                    <li><a href="#paragraph">The text</a></li>
+                    <li><a href="#newsletter">Newsletter</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="about">
+                <h2>About this page</h2>
+                <p>You may wonder what the purpose of this web page is. Of course you do. This page's sole purpose is to display the one and only <abbr title="In publishing and graphic design, Lorem ipsum (/ˌlɔː.rəm ˈɪp.səm/) is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.">Lorem Ipsum </abbr>paragraph. No more, no less. Please, enjoy.</p>
+            </section>
+            <article id="paragraph">
+                <h2>Lorem Ipsum</h2>
+                <div class="container">
+                    <p id="loremIpsum">
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                    </p>
+                    <figure>
+                        <img alt="Julius Cæsar" src="https://media.istockphoto.com/id/157636640/fr/vectoriel/gravure-de-jules-c%C3%A9sar-ou-augustus-casus-octavianus.jpg?s=612x612&w=0&k=20&c=CU2bnrLjlTG_YaPp39bB_Uf1cvRcULmPFB83zVSUm6E=">
+                        <figcaption><i>Unrelated picture of roman emperor Julius Cæsar (110 BC - 44 BC)</i></figcaption>
+                    </figure>    
+                    
+                </div>
+            </article>
+            <section id="newsletter">
+                <h2>Let us keep in touch!</h2>
+                <h3>Consider subscribing to our fantastic newsletter:</h3>
+                <form>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" required>
+                    <br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" required>
+                    <br>
+                    <label for="tel">Phone number:</label>
+                    <input type="tel" id="tel">
+                    <br>
+                    <label for="country">Country:</label>
+                    <select>
+                        <option>France</option>
+                        <option>Belgium</option>
+                        <option>Switzerland</option>
+                        <option>Other</option>
+                    </select>
+                    <br>
+                    <label for="you">About you (optionnal): </label>
+                    <textarea  rows="6" cols="45" id="you" placeholder="Just type a few words so we get to know you better, if you feel like it."></textarea>
+                    <br>
+                    <input type="submit" value="Subscribe">
+                </form>
+            </section>
+        </main>
+        <footer>
+            <div class="info">
+                <h3>Contact info: </h3> 
+                <address>
+                    <a href="mailto:lorem@ipsum.com">lorem@ipsum.com</a>
+                    <br>
+                    <a href="tel:+33123456789">01.23.45.67.89</a>
+                </address>
+            </div>
+            <div>
+                <p>© Hugo Maréchal, 2023</p>
+            </div>
+            <button class="scrollButton"><a href="#">Back to top</a></button>
+        </footer>
+    </body>
+</html>
